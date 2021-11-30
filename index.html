@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/8830ced046.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+    <title>TodoList</title>
+</head>
+
+<body>
+    <header class="text-center text-light my-4 container">
+        <h1>TodoList</h1>
+        <form action="#">
+            <input type="text" name="search" placeholder="search todo">
+        </form>
+    </header>
+    <main class="container">
+        <ul class="list-group mx-auto text-light todo">
+            <li class="list-group-item d-flex justify-content-between alighn-item-center">
+                <span>learn js</span>
+                <i class="fas fa-trash-alt"></i>
+            </li>
+            <li class="list-group-item d-flex justify-content-between alighn-item-center">
+                <span>go to gym</span>
+                <i class="fas fa-trash-alt"></i>
+            </li>
+            <li class="list-group-item d-flex justify-content-between alighn-item-center">
+                <span>read book</span>
+                <i class="fas fa-trash-alt"></i>
+            </li>
+        </ul>
+
+        <form action="#" class="add text-center my-4 ">
+            <label class="mb-1" for="add-things" style="color: aliceblue;">Add a new todo</label>
+            <input type="text" name="add" class="form-control m-auto">
+            <input type="submit" value="add" class="btn">
+        </form>
+    </main>
+    <script src="./app.js"></script>
+</body>
+
+</html>
