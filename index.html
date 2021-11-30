@@ -15,29 +15,29 @@
 <body>
     <header class="text-center text-light my-4 container">
         <h1>TodoList</h1>
-        <form action="#">
-            <input type="text" name="search" placeholder="search todo">
+        <form action="#" class="search">
+            <input type="text" name="search" placeholder="search todo" autocomplete="off">
         </form>
     </header>
     <main class="container">
         <ul class="list-group mx-auto text-light todo">
             <li class="list-group-item d-flex justify-content-between alighn-item-center">
                 <span>learn js</span>
-                <i class="fas fa-trash-alt"></i>
+                <i class="fas fa-trash-alt delete"></i>
             </li>
             <li class="list-group-item d-flex justify-content-between alighn-item-center">
                 <span>go to gym</span>
-                <i class="fas fa-trash-alt"></i>
+                <i class="fas fa-trash-alt delete"></i>
             </li>
             <li class="list-group-item d-flex justify-content-between alighn-item-center">
                 <span>read book</span>
-                <i class="fas fa-trash-alt"></i>
+                <i class="fas fa-trash-alt delete"></i>
             </li>
         </ul>
 
         <form action="#" class="add text-center my-4 ">
-            <label class="mb-1" for="add-things" style="color: aliceblue;">Add a new todo</label>
-            <input type="text" name="add" class="form-control m-auto">
+            <label class="mb-1" for="add-things" style="color: aliceblue;">Add a new todo...</label>
+            <input type="text" name="add" class="form-control m-auto" autocomplete="off">
             <input type="submit" value="add" class="btn">
         </form>
     </main>
